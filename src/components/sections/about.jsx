@@ -148,9 +148,9 @@ const About = () => {
                 <div className="wrapper">
                     <img
                         className="img"
-                        src="/src/images/me.jpg"
+                        src="/images/me.jpg"
                         width={500}
-                        alt="Headshot"
+                        alt="It's me!"
                     />
                 </div>
             </StyledPic>
