@@ -1,0 +1,10 @@
+export {default as Layout} from './layout.jsx';
+export {default as Nav} from './nav.jsx';
+export {default as Menu} from './menu.jsx';
+export {default as Side} from './side.jsx';
+export {default as Social} from './social.jsx';
+export {default as Email} from './email.jsx';
+export {default as Footer} from './footer.jsx';
+export {default as Hero} from './sections/hero.jsx';
+export {default as About} from './sections/about.jsx';
+export {default as Contact} from './sections/contact.jsx';
