@@ -15,7 +15,7 @@ const socialMedia = [
     },
     {
         name: 'Linkedin',
-        url: 'https://www.linkedin.com/in/l_lessi06',
+        url: 'https://www.linkedin.com/in/lukas-lesslhumer',
     },
 ];
 
