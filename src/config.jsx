@@ -1,39 +1,23 @@
 const email = 'lukaslesslhumer6@gmail.com';
 
-const socialMedia = [
-    {
-        name: 'GitHub',
-        url: 'https://github.com/llessi06',
-    },
-    {
-        name: 'Instagram',
-        url: 'https://www.instagram.com/l_lessi06',
-    },
-    {
-        name: 'Twitter',
-        url: 'https://twitter.com/l_lessi06',
-    },
-    {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/in/lukas-lesslhumer',
-    },
-];
+const socialMedia = [{
+    name: 'GitHub', url: 'https://github.com/llessi06',
+}, {
+    name: 'Instagram', url: 'https://www.instagram.com/l_lessi06',
+}, {
+    name: 'Twitter', url: 'https://twitter.com/l_lessi06',
+}, {
+    name: 'Linkedin', url: 'https://www.linkedin.com/in/lukas-lesslhumer',
+},];
 
-const navLinks = [
-    {
-        name: 'About',
-        url: '/#about',
-    },
-    {
-        name: 'Contact',
-        url: '/#contact',
-    },
-];
+const navLinks = [{
+    name: 'About', url: '/#about',
+}, {name: 'Experience', url: '/#jobs'}, {
+    name: 'Contact', url: '/#contact',
+},];
 
 const colors = {
-    green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    green: '#64ffda', navy: '#0a192f', darkNavy: '#020c1b',
 };
 
 const srConfig = (delay = 200, viewFactor = 0.25) => ({

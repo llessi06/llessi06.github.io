@@ -3,8 +3,7 @@ import {useEffect, useState} from 'react';
 const QUERY = '(prefers-reduced-motion: no-preference)';
 const isRenderingOnServer = typeof window === 'undefined';
 
-const getInitialState = () =>
-    isRenderingOnServer ? true : !window.matchMedia(QUERY).matches;
+const getInitialState = () => isRenderingOnServer ? true : !window.matchMedia(QUERY).matches;
 
 function usePrefersReducedMotion() {
     const [prefersReducedMotion, setPrefersReducedMotion] = useState(getInitialState);
@@ -13,9 +12,9 @@ function usePrefersReducedMotion() {
         const listener = event => {
             setPrefersReducedMotion(!event.matches);
         };
-        mediaQueryList.addListener(listener);
+        mediaQueryList.addEventListener("change", listener);
         return () => {
-            mediaQueryList.removeListener(listener);
+            mediaQueryList.removeEventListener("change", listener);
         };
     }, []);
     return prefersReducedMotion;
