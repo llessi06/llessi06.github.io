@@ -57,7 +57,7 @@ const Imprint = () => {
                 <p>Behörde gem. ECG: Bezirkshauptmannschaft Eferding</p>
             </StyledImprintSection>
         </StyledMainContainer>
-    </Layout>)
+    </Layout>);
 }
 
 export default Imprint;

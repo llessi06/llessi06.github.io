@@ -81,18 +81,14 @@ const StyledImprint = styled.div`
 
 const Footer = () => {
 
-    return (
-        <StyledFooter>
+    return (<StyledFooter>
             <StyledSocialLinks>
                 <ul>
-                    {socialMedia &&
-                        socialMedia.map(({name, url}, i) => (
-                            <li key={i}>
-                                <a href={url} aria-label={name}>
-                                    <Icon name={name}/>
-                                </a>
-                            </li>
-                        ))}
+                    {socialMedia && socialMedia.map(({name, url}, i) => (<li key={i}>
+                            <a href={url} aria-label={name}>
+                                <Icon name={name}/>
+                            </a>
+                        </li>))}
                 </ul>
             </StyledSocialLinks>
 
@@ -102,16 +98,16 @@ const Footer = () => {
                 </a>
             </StyledCredit>
 
-            <StyledPrivacyImprintWrapper><StyledPrivacyPolicy>
-                <a href="/privacy-policy">Privacy Policy</a>
-            </StyledPrivacyPolicy>
+            <StyledPrivacyImprintWrapper>
+                <StyledPrivacyPolicy>
+                    <a href="/privacy-policy">Privacy Policy</a>
+                </StyledPrivacyPolicy>
                 <StyledImprint>
                     <a href="/imprint">Imprint</a>
                 </StyledImprint>
             </StyledPrivacyImprintWrapper>
 
-        </StyledFooter>
-    );
+        </StyledFooter>);
 };
 
 export default Footer;
