@@ -175,7 +175,7 @@ const Jobs = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/jobs.json');
+                const response = await fetch('/content/jobs.json');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }

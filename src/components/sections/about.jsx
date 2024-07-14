@@ -148,7 +148,7 @@ const About = () => {
                 <div className="wrapper">
                     <img
                         className="img"
-                        src="/images/me.jpg"
+                        src="/content/images/me.jpg"
                         width={500}
                         alt="It's me!"
                     />
