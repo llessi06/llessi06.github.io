@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    {
+      "date": "2024-07-01",
+      "title": "Intern Software Engineer",
+      "company": "Lab73",
+      "location": "Wels, Austria",
+      "range": "July 2024",
+      "url": "https://www.lab73.at",
+      "description": "I developed a dashboard for the company's staging instances.\nFurthermore I developed a new dashboard for their meeting rooms."
+    },
+    {
+      "date": "2023-07-01",
+      "title": "Intern Software Engineer",
+      "company": "Eschlböck",
+      "location": "Prambachkirchen, Austria",
+      "range": " July 2023",
+      "url": "https://www.eschlboeck.at",
+      "description": "I helped rewriting, designing and testing the company's spare parts management software."
+    }
+  ]
+}
