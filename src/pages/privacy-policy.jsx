@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 
 const StyledMainContainer = styled.main`
     counter-reset: section;
-    
+
 `;
 
 const StyledPrivacyPolicySection = styled.section`
@@ -67,10 +67,8 @@ const PrivacyPolicy = () => {
                 <div dangerouslySetInnerHTML={{__html: content}}/>
             </StyledPrivacyPolicySection>
         </StyledMainContainer>
-    </Layout>)
+    </Layout>);
 };
-
-
 
 
 export default PrivacyPolicy;
