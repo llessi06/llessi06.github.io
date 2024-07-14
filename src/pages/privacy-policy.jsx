@@ -53,7 +53,7 @@ const PrivacyPolicy = () => {
     const [content, setContent] = useState('');
 
     useEffect(() => {
-        fetch('/privacy-policy.html')
+        fetch('/privacy-policy-content')
             .then(response => response.text())
             .then(data => {
                 setContent(data);
