@@ -100,10 +100,10 @@ const Footer = () => {
 
             <StyledPrivacyImprintWrapper>
                 <StyledPrivacyPolicy>
-                    <a href="/privacy-policy.html">Privacy Policy</a>
+                    <a href="/privacy-policy">Privacy Policy</a>
                 </StyledPrivacyPolicy>
                 <StyledImprint>
-                    <a href="/imprint.html">Imprint</a>
+                    <a href="/imprint">Imprint</a>
                 </StyledImprint>
             </StyledPrivacyImprintWrapper>
 
