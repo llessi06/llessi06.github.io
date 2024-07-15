@@ -13,6 +13,7 @@ const StyledPrivacyPolicySection = styled.section`
     align-items: flex-start;
     min-height: 100vh;
     padding: var(--nav-height) 0 0;
+    word-wrap: anywhere;
 
     @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
         height: auto;
