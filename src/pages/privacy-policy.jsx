@@ -12,10 +12,9 @@ const StyledPrivacyPolicySection = styled.section`
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
-    height: 100vh;
-    padding: 0;
+    padding: var(--nav-height) 0 0;
 
-    @media (max-height: 2000px) and (min-width: 700px), (max-width: 360px) {
+    @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
         height: auto;
         padding-top: var(--nav-height);
     }
@@ -31,9 +30,15 @@ const StyledPrivacyPolicySection = styled.section`
             margin: 0 0 20px 2px;
         }
     }
+    
+    h2 {
+        margin-top: 17px;
+        color: var(--slate);
+        line-height: 1;
+    }
 
     h3 {
-        margin-top: 5px;
+        margin-top: 17px;
         color: var(--slate);
         line-height: 0.9;
     }
